@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "E0196103"
     },
-    "lastModifiedOn": 1699455819072,
+    "lastModifiedOn": 1701101316579,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -89,8 +89,17 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"customer_id","type":"string"},
+      {"name":"age","type":"double"},
+      {"name":"price_first_item_purchased","type":"double"},
+      {"name":"gender","type":"string"},
+      {"name":"revenue","type":"double"},
+      {"name":"ip_country","type":"string"},
+      {"name":"pages_visited","type":"double"},
+      {"name":"campain","type":"boolean"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
