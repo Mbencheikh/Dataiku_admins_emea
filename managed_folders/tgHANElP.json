@@ -1,8 +1,13 @@
 {
   "name": "test-onedrive",
-  "type": "Filesystem",
+  "type": "fsprovider_onedrive_onedrive_onedrive-fs",
   "params": {
-    "connection": "filesystem_folders",
+    "config": {
+      "onedrive_connection": {
+        "mode": "PRESET",
+        "name": "Onedrive_EMEA_Designer"
+      }
+    },
     "path": "${projectKey}/${odbId}",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
@@ -89,11 +94,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "E0196103"
     },
-    "lastModifiedOn": 1701101388109,
+    "lastModifiedOn": 1701101485961,
     "extendedProperties": {}
   },
   "creationTag": {
