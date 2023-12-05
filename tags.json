@@ -21,18 +21,24 @@
     "sample_project": {
       "color": "#d66b9b"
     },
-    "section:Basics": {},
+    "section:Basics": {
+      "color": "#00a55a"
+    },
     "Features preparation": {
       "color": "#1ac2ab"
     },
-    "downloads": {},
+    "downloads": {
+      "color": "#de1ea5"
+    },
     "Training data": {
       "color": "#90a8b7"
     },
     "SAMPLE_PROJECT": {
       "color": "#1ac2ab"
     },
-    "gallery": {},
+    "gallery": {
+      "color": "#FFD83D"
+    },
     "creator_admin": {
       "color": "#1ac2ab"
     },
@@ -48,14 +54,18 @@
     "Update model": {
       "color": "#ee874a"
     },
-    "builtin": {},
+    "builtin": {
+      "color": "#de1ea5"
+    },
     "Regression": {
       "color": "#de3b56"
     },
     "Data processing": {
       "color": "#28aadd"
     },
-    "sample": {},
+    "sample": {
+      "color": "#123883"
+    },
     "Source data": {
       "color": "#a088bd"
     },
