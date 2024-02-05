@@ -11,11 +11,11 @@
     "extendedProperties": {}
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "E0196103"
     },
-    "lastModifiedOn": 1707148309132,
+    "lastModifiedOn": 1707148348128,
     "extendedProperties": {}
   },
   "checklists": {
@@ -28,7 +28,34 @@
   },
   "tags": [],
   "triggers": [],
-  "reporters": [],
+  "reporters": [
+    {
+      "active": true,
+      "messaging": {
+        "type": "mail-scenario",
+        "configuration": {
+          "channelId": "SMTP_EMEA",
+          "subject": "DSS scenario ${scenarioName}: ${outcome}",
+          "recipient": "mohamed.bencheikh@sanofi.com",
+          "sendAsHTML": false,
+          "attachments": [
+            {
+              "type": "LOG",
+              "params": {}
+            }
+          ],
+          "messageSource": "TEMPLATE_FILE",
+          "templateFormat": "FREEMARKER",
+          "templateName": "default.ftl"
+        }
+      },
+      "id": "WQey1hYQ",
+      "name": "test",
+      "runConditionEnabled": true,
+      "runCondition": "outcome \u003d\u003d \u0027SUCCESS\u0027",
+      "phase": "END"
+    }
+  ],
   "params": {
     "steps": []
   },
