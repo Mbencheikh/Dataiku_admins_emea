@@ -3,19 +3,19 @@
   "name": "email-test",
   "active": false,
   "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "E0196103"
-    },
-    "lastModifiedOn": 1707148309132,
-    "extendedProperties": {}
-  },
-  "versionTag": {
     "versionNumber": 1,
     "lastModifiedBy": {
       "login": "E0196103"
     },
     "lastModifiedOn": 1707148348128,
+    "extendedProperties": {}
+  },
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "E0196103"
+    },
+    "lastModifiedOn": 1707148604083,
     "extendedProperties": {}
   },
   "checklists": {
@@ -53,7 +53,7 @@
       "name": "test",
       "runConditionEnabled": true,
       "runCondition": "outcome \u003d\u003d \u0027SUCCESS\u0027",
-      "phase": "END"
+      "phase": "START"
     }
   ],
   "params": {
