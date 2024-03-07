@@ -7,7 +7,8 @@
       "envMode": "INHERIT"
     },
     "containerSelection": {
-      "containerMode": "INHERIT"
+      "containerMode": "EXPLICIT_CONTAINER",
+      "containerConf": "dataiku-Default"
     },
     "skipPrerunValidate": false
   },
@@ -40,11 +41,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
-      "login": "fr08720"
+      "login": "E0196103"
     },
-    "lastModifiedOn": 1702628889968,
+    "lastModifiedOn": 1709816692325,
     "extendedProperties": {}
   },
   "creationTag": {
